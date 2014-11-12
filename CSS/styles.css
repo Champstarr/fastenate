@@ -1,5 +1,68 @@
+#container {
+  background-color: #edebeb;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+
 .cf:after {
   content: "";
   display: table;
   clear: both;
 }
+
+#header {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+
+
+}
+
+
+#nav li{
+  display: inline;
+
+  text-decoration: none;
+}
+
+#nav{
+
+  max-width: 1200 px;
+  text-align: center;
+  background-color: #5f5a6c;
+  padding: 10px;
+
+}
+
+#nav ul li a{
+  text-decoration: none;
+  color:#d9dee3;
+}
+
+
+#nav ul li a:hover{
+    text-decoration: none;
+    color: #58b4f3;
+}
+
+
+#main {
+  background-color: #be5f2d;
+  max-width: 1200px;
+
+}
+
+.animal {
+  background-color: white;
+
+
+
+}
+
+
+
+
