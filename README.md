@@ -1,4 +1,4 @@
-# Fastenate
+
 Study the EASYMODE Layouts provided located inside the `easymode/` directory of this project. Be sure you are viewing the images at **Actual Size** (100%) e.g. not zoomed in (> 100%) or out (<100%).
 
 ## Set-up (fork, clone, navigate, start Server)
