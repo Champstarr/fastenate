@@ -8,7 +8,7 @@
 
 
 
-.cf:after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -24,8 +24,9 @@
 
 
 #nav li{
-  display: inline;
-
+  display: inline-block;
+  font-family: sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -52,14 +53,26 @@
 
 #main {
   background-color: #be5f2d;
-  max-width: 1200px;
+  max-width: 800px;
+  max-width: 100%;
 
 }
 
 .animal {
   background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
 
 
+}
+
+#content {
+  background-color: #eb6841; 
+  max-width: 100%;
 
 }
 
