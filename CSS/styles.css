@@ -1,8 +1,15 @@
+
+html {
+  height: 100%;
+
+}
+
 #container {
   background-color: #edebeb;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  max-height: 12000px;
 
 }
 
@@ -23,7 +30,7 @@
 }
 
 
-#nav li{
+#nav li {
   display: inline-block;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -55,6 +62,8 @@
   background-color: #be5f2d;
   max-width: 800px;
   max-width: 100%;
+  max-height: 100%;
+  position: absolute;
 
 }
 
@@ -65,14 +74,23 @@
   max-width: 80%;
   padding: 10px;
   margin-bottom: 10px;
+  max-height: 100%;
+
   
 
+
+}
+
+.animal>h1 {
+  font-family: sans-serif;
+  font-weight: bold;
 
 }
 
 #content {
   background-color: #eb6841; 
   max-width: 100%;
+  max-height: 100%;
 
 }
 
